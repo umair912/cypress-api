@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open --reporter mochawesome",
+    "cy:open": "NO_COLOR=1 cypress open --reporter mochawesome",
     "cy:run": "NO_COLOR=1 cypress run --reporter mochawesome"
   },
   "author": "",
