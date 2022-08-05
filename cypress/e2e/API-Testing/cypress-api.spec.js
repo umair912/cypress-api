@@ -1,7 +1,7 @@
 describe('API test Case',() => {
 
     // API PACKAGE == https://catfact.ninja/ 
-
+    
     it('should get random fact about cats', () => {
         cy.request({
             method: 'GET',
@@ -45,3 +45,17 @@ describe('API test Case',() => {
 //   cy.get('@responce').should((responce) => {
 //     console.log(responce)
 //   })
+
+// reporter: 'cypress-multi-reporters'
+    // reporterOptions: {
+    //     reporterEnabled: 'mochawesome',
+    //     mochawesomeReporterOptions: {
+    //         reportDir: 'cypress/reports/mocha',
+    //         quite: true,
+    //         overwrite: false,
+    //         html: false,
+    //         json: true
+    //     }
+    // }
+
+    // specPattern:'cypress/e2e/**/*.spec.{js,jsx,ts,tsx}',
