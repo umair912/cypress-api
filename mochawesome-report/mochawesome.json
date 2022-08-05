@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2022-08-05T13:43:07.675Z",
-    "end": "2022-08-05T13:43:09.532Z",
-    "duration": 1857,
+    "start": "2022-08-05T13:55:15.622Z",
+    "end": "2022-08-05T13:55:18.224Z",
+    "duration": 2602,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "7a704795-1b39-475e-99e5-98889f8f535c",
+      "uuid": "b1ecc643-4d60-4180-bf2c-a831e17ae4f1",
       "title": "",
       "fullFile": "cypress/e2e/API-Testing/cypress-api.spec.js",
       "file": "cypress/e2e/API-Testing/cypress-api.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3d436dea-aef5-4b9d-9bb6-4873de6b7606",
+          "uuid": "c9adca62-0cfe-4e02-a64f-2867b7469ebc",
           "title": "API test Case",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "should get random fact about cats",
               "fullTitle": "API test Case should get random fact about cats",
               "timedOut": null,
-              "duration": 1102,
+              "duration": 1655,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.request({\n  method: 'GET',\n  url: '/fact'\n}).then(response => {\n  expect(response).to.have.property('status', 200);\n});",
               "err": {},
-              "uuid": "ecca5f60-fcda-450d-9c3c-9bc32682f587",
-              "parentUUID": "3d436dea-aef5-4b9d-9bb6-4873de6b7606",
+              "uuid": "50feb5a3-d3ed-473b-93a7-2aac4dc83847",
+              "parentUUID": "c9adca62-0cfe-4e02-a64f-2867b7469ebc",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "should get random facts about cats",
               "fullTitle": "API test Case should get random facts about cats",
               "timedOut": null,
-              "duration": 337,
+              "duration": 420,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "cy.request({\n  method: 'GET',\n  url: '/facts'\n}).then(response => {\n  expect(response).to.have.property('status', 200);\n});",
               "err": {},
-              "uuid": "62d5c79a-319c-4e61-acbe-4b47fe906d80",
-              "parentUUID": "3d436dea-aef5-4b9d-9bb6-4873de6b7606",
+              "uuid": "ea515ce1-79a6-4e5b-aa63-cf8f89061402",
+              "parentUUID": "c9adca62-0cfe-4e02-a64f-2867b7469ebc",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "should get random facts about cats",
               "fullTitle": "API test Case should get random facts about cats",
               "timedOut": null,
-              "duration": 362,
+              "duration": 310,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "cy.request({\n  method: 'GET',\n  url: '/breeds'\n}).then(response => {\n  expect(response).to.have.property('status', 200);\n});",
               "err": {},
-              "uuid": "6656107d-8ab8-4554-8b0f-d5ab44836592",
-              "parentUUID": "3d436dea-aef5-4b9d-9bb6-4873de6b7606",
+              "uuid": "9fa92ccd-45a4-46ce-b8c8-12ffb25f5c2c",
+              "parentUUID": "c9adca62-0cfe-4e02-a64f-2867b7469ebc",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ecca5f60-fcda-450d-9c3c-9bc32682f587",
-            "62d5c79a-319c-4e61-acbe-4b47fe906d80",
-            "6656107d-8ab8-4554-8b0f-d5ab44836592"
+            "50feb5a3-d3ed-473b-93a7-2aac4dc83847",
+            "ea515ce1-79a6-4e5b-aa63-cf8f89061402",
+            "9fa92ccd-45a4-46ce-b8c8-12ffb25f5c2c"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1801,
+          "duration": 2385,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

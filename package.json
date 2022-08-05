@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open --reporter mochawesome",
-    "cy:run": "cypress run --reporter mochawesome"
+    "cy:run": "NO_COLOR=1 cypress run --reporter mochawesome"
   },
   "author": "",
   "license": "ISC",
