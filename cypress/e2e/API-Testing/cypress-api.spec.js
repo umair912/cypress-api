@@ -29,33 +29,3 @@ describe('API test Case',() => {
         })
     });
 });
-
-// EXAMPLE OF API TEST CASE
-// cy.request({
-
-//     method: 'POST',
-//     url: 'https://postman-echo.com/post',
-//     body: formData,
-//     headers: {
-//       'content-type': 'multipart/form-data',
-//     },
-//   }).
-//     as('responce')
-
-//   cy.get('@responce').should((responce) => {
-//     console.log(responce)
-//   })
-
-// reporter: 'cypress-multi-reporters'
-    // reporterOptions: {
-    //     reporterEnabled: 'mochawesome',
-    //     mochawesomeReporterOptions: {
-    //         reportDir: 'cypress/reports/mocha',
-    //         quite: true,
-    //         overwrite: false,
-    //         html: false,
-    //         json: true
-    //     }
-    // }
-
-    // specPattern:'cypress/e2e/**/*.spec.{js,jsx,ts,tsx}',
